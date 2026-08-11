@@ -1,0 +1,35 @@
+{
+  "baseline_default": {
+    "AP@0.3": 0.026,
+    "AP@0.5": 0.002,
+    "n_gt": 2508,
+    "n_pred": 8908,
+    "cfg": {
+      "anchors": "default",
+      "min_size": 800,
+      "max_size": 1333
+    }
+  },
+  "small_anchors": {
+    "AP@0.3": 0.024,
+    "AP@0.5": 0.001,
+    "n_gt": 2508,
+    "n_pred": 7363,
+    "cfg": {
+      "anchors": "small",
+      "min_size": 640,
+      "max_size": 640
+    }
+  },
+  "small_anchors_2x": {
+    "AP@0.3": 0.019,
+    "AP@0.5": 0.001,
+    "n_gt": 2508,
+    "n_pred": 10093,
+    "cfg": {
+      "anchors": "small",
+      "min_size": 1280,
+      "max_size": 1280
+    }
+  }
+}

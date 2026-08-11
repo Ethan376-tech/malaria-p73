@@ -1,0 +1,20 @@
+{
+  "RedDino": {
+    "frozen_lp": 0.593,
+    "ft_test_at_bestval": 0.498,
+    "ft_test_at_bestval_sd": 0.003,
+    "ft_test_at_lastep": 0.457,
+    "ft_test_at_lastep_sd": 0.027,
+    "mean_bestval": 0.612,
+    "mean_drift_pct": 0.11
+  },
+  "ThickDINO": {
+    "frozen_lp": 0.68,
+    "ft_test_at_bestval": 0.71,
+    "ft_test_at_bestval_sd": 0.016,
+    "ft_test_at_lastep": 0.727,
+    "ft_test_at_lastep_sd": 0.028,
+    "mean_bestval": 0.823,
+    "mean_drift_pct": 1.153
+  }
+}

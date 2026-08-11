@@ -1,0 +1,30 @@
+{
+  "D1_unrefined": {
+    "AP@0.3": 0.458,
+    "AP@0.5": 0.241,
+    "AP03_low": 0.375,
+    "AP03_high": 0.651
+  },
+  "D2_naive": {
+    "n_label": 0,
+    "note": "conf>0.7 collapses on YOLO (0 labels) \u2014 RetinaNet-calibrated threshold; degenerate, skipped"
+  },
+  "D2_protected": {
+    "n_label": 5921,
+    "AP@0.3": 0.538,
+    "AP@0.5": 0.294,
+    "AP03_low": 0.43,
+    "AP03_high": 0.757
+  },
+  "ref_retinanet_Table4.8": {
+    "D1": {
+      "AP@0.5": 0.125
+    },
+    "naive": {
+      "AP@0.5": 0.134
+    },
+    "protected": {
+      "AP@0.5": 0.206
+    }
+  }
+}

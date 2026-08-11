@@ -1,0 +1,29 @@
+{
+  "setup": {
+    "note": "AUC=ranking; BA@true-prior=achievable decision; align target tiles -> source(C1-box) dist"
+  },
+  "raw": {
+    "A_overall_AUC": 0.643,
+    "A_overall_BA": 0.621,
+    "A_lowpara_AUC": 0.465,
+    "A_lowpara_BA": 0.469,
+    "C_AUC": 0.779,
+    "C_BA": 0.772
+  },
+  "BN": {
+    "A_overall_AUC": 0.651,
+    "A_overall_BA": 0.618,
+    "A_lowpara_AUC": 0.503,
+    "A_lowpara_BA": 0.481,
+    "C_AUC": 0.765,
+    "C_BA": 0.726
+  },
+  "CORAL": {
+    "A_overall_AUC": 0.54,
+    "A_overall_BA": 0.531,
+    "A_lowpara_AUC": 0.465,
+    "A_lowpara_BA": 0.475,
+    "C_AUC": 0.771,
+    "C_BA": 0.738
+  }
+}

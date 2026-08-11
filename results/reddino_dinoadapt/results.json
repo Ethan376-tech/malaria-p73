@@ -1,0 +1,14 @@
+{
+  "method": "ThickDINO-Red: RedDino-init + DINO+iBOT adapt, softmax centering",
+  "steps": 15000,
+  "batch": 96,
+  "patch": 14,
+  "out_dim": 8192,
+  "base_lr": 0.0002,
+  "init": "RedDino",
+  "centering": "softmax",
+  "n_tiles": 808008,
+  "final_loss": 6.146869783401489,
+  "final_dino": 5.03631422996521,
+  "final_ibot": 1.1105555421113968
+}

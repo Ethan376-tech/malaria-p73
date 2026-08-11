@@ -1,0 +1,14 @@
+{
+  "steps": 1000,
+  "eff_batch": 256,
+  "lr_head": 0.001,
+  "lr_bb": 1e-05,
+  "freeze": 200,
+  "mom": 0.996,
+  "pool": "transductive_A+B",
+  "init": "RedDino",
+  "recipe": "v2 gentle: disc-LR + head-warmup + accum256 + mild-aug",
+  "final_loss": 9.69637767791748,
+  "loss_first": 9.87925910949707,
+  "min_loss": 9.670381546020508
+}

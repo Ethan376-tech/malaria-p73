@@ -1,0 +1,31 @@
+{
+  "A": {
+    "domain": "A_ibadan_fastmal",
+    "n_dev_fields": 95,
+    "n_gt_boxes": 1487,
+    "box_size_px": 42.5,
+    "box_size_p25": 38.0,
+    "box_size_p75": 46.5,
+    "peak_min_dist_px": 21,
+    "sim_threshold": 0.5683,
+    "sim_sep_auc": 0.756,
+    "n_dev_tiles": 185,
+    "parasite_patch_simmean": 0.5887,
+    "bg_patch_simmean": 0.51
+  },
+  "B": {
+    "domain": "B_chittagong1",
+    "n_dev_fields": 902,
+    "n_gt_boxes": 13548,
+    "box_size_px": 19.0,
+    "box_size_p25": 15.0,
+    "box_size_p75": 24.0,
+    "peak_min_dist_px": 10,
+    "sim_threshold": 0.4861,
+    "sim_sep_auc": 0.688,
+    "n_dev_tiles": 401,
+    "parasite_patch_simmean": 0.5078,
+    "bg_patch_simmean": 0.4467
+  },
+  "note": "box_size=median GT side px (our tile coord frame); peak_min_dist=0.5*box_size; sim_threshold=Youden on dev CLS-sim parasite-vs-bg. Derived on DEV fields only (test held out)."
+}

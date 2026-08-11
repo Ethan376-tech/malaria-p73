@@ -1,0 +1,20 @@
+{
+  "a0": {
+    "mAP50": 0.311,
+    "mAP50_95": 0.075,
+    "precision": 0.358,
+    "recall": 0.514
+  },
+  "protected": {
+    "mAP50": 0.328,
+    "mAP50_95": 0.077,
+    "precision": 0.33,
+    "recall": 0.54
+  },
+  "gtsup": {
+    "mAP50": 0.719,
+    "mAP50_95": 0.307,
+    "precision": 0.72,
+    "recall": 0.711
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "lofo": {
+    "tau": 0.34,
+    "overall": {
+      "R2": 0.625,
+      "pearson": 0.821,
+      "MAE": 3.88
+    },
+    "low_density": {
+      "R2": -0.091,
+      "pearson": 0.76,
+      "MAE": 3.95
+    },
+    "high_density": {
+      "R2": -0.18,
+      "pearson": 0.625,
+      "MAE": 3.79
+    }
+  },
+  "leaked": {
+    "tau": 0.34,
+    "overall": {
+      "R2": 0.707,
+      "pearson": 0.851,
+      "MAE": 3.48
+    },
+    "low_density": {
+      "R2": -0.071,
+      "pearson": 0.793,
+      "MAE": 3.9
+    },
+    "high_density": {
+      "R2": 0.35,
+      "pearson": 0.773,
+      "MAE": 3.0
+    }
+  },
+  "report_ref": {
+    "r": 0.85,
+    "low_r": 0.8,
+    "R2": 0.65,
+    "MAE": 3.8
+  }
+}

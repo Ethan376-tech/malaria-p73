@@ -1,0 +1,9 @@
+{
+  "mean_diff": 0.04,
+  "pct_thickdino_better": 71.1,
+  "dci": [
+    0.02,
+    0.061
+  ],
+  "n": 45
+}

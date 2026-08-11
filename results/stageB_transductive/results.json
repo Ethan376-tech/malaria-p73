@@ -1,0 +1,15 @@
+{
+  "iters": 2000,
+  "batch": 64,
+  "out_dim": 16384,
+  "lr": 0.0003,
+  "mom": 0.996,
+  "pool": "transductive_A+B",
+  "init": "RedDino",
+  "recipe": "DINO sinkhorn no-koleo no-localcrop",
+  "final_loss": 9.214864616394044,
+  "loss_first": 9.89221477508545,
+  "min_loss": 9.175543785095215,
+  "n_fields": 28265,
+  "seed": 0
+}

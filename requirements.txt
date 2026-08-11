@@ -1,0 +1,25 @@
+# Python 3.12. Tested on Linux + NVIDIA GPU (CUDA 12.8).
+#
+# IMPORTANT: install the torch / torchvision build that matches YOUR CUDA
+# from https://pytorch.org/get-started/locally/ . The versions below are the
+# CUDA 12.8 builds used in this project (installed wheels were torch==2.8.0+cu128,
+# torchvision==0.23.0+cu128).
+torch==2.8.0
+torchvision==0.23.0
+
+ultralytics==8.4.80        # YOLOv8n and the MicroYOLO specialisation
+timm==1.0.27               # ViT backbone helpers
+numpy==2.3.2
+scipy==1.17.1              # spatial statistics (Ripley's L, pair-correlation), stats
+scikit-learn==1.9.0        # metrics, Ledoit-Wolf covariance, calibration
+matplotlib==3.10.5         # figures
+pillow==11.3.0             # image I/O (thick-film fields)
+opencv-python==4.13.0.92
+pandas==3.0.3
+tqdm==4.66.2
+nbformat==5.10.4           # the build_*_nb.py scripts construct experiment notebooks
+
+# Optional: the ThickDINO encoder is DINOv2-based and is run from the referenced
+# RedDino / DINOv2 code (see README > Third-party code). xformers is optional; all
+# scripts run with the environment variable XFORMERS_DISABLED=1.
+# xformers==0.0.32.post2

@@ -1,0 +1,42 @@
+{
+  "weakly_supervised": {
+    "tau": 0.9,
+    "overall": {
+      "R2": 0.017,
+      "pearson": 0.471,
+      "MAE": 5.95
+    },
+    "low_density": {
+      "R2": -1.222,
+      "pearson": 0.699,
+      "MAE": 4.71
+    },
+    "high_density": {
+      "R2": -2.898,
+      "pearson": 0.395,
+      "MAE": 7.32
+    },
+    "mean_gt": 15.2,
+    "mean_pred": 13.7
+  },
+  "GT_supervised": {
+    "tau": 0.95,
+    "overall": {
+      "R2": 0.564,
+      "pearson": 0.797,
+      "MAE": 3.95
+    },
+    "low_density": {
+      "R2": -0.783,
+      "pearson": 0.811,
+      "MAE": 5.05
+    },
+    "high_density": {
+      "R2": 0.267,
+      "pearson": 0.645,
+      "MAE": 2.74
+    },
+    "mean_gt": 15.2,
+    "mean_pred": 16.2
+  }
+}

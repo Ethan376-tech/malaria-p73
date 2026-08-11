@@ -1,0 +1,13 @@
+{
+  "method": "Path2 from-scratch DINO+iBOT (random init, RedDino recipe knobs)",
+  "steps": 12000,
+  "batch": 96,
+  "out_dim": 8192,
+  "base_lr": 0.0005,
+  "arch": "vit_small init_values=1.0",
+  "init": "random",
+  "n_tiles": 305716,
+  "final_loss": 10.59033639907837,
+  "final_dino": 7.834156837463379,
+  "final_ibot": 2.756179602146149
+}

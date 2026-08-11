@@ -1,0 +1,54 @@
+{
+  "agg": {
+    "ts_space": {
+      "AP@0.3": {
+        "mean": 0.524,
+        "std": 0.018
+      },
+      "AP@0.5": {
+        "mean": 0.341,
+        "std": 0.017
+      },
+      "AP03_low": {
+        "mean": 0.438,
+        "std": 0.015
+      },
+      "AP03_high": {
+        "mean": 0.75,
+        "std": 0.018
+      }
+    }
+  },
+  "runs": {
+    "ts_space": [
+      {
+        "AP@0.3": 0.506,
+        "AP@0.5": 0.318,
+        "AP03_low": 0.425,
+        "AP03_high": 0.744
+      },
+      {
+        "AP@0.3": 0.517,
+        "AP@0.5": 0.349,
+        "AP03_low": 0.43,
+        "AP03_high": 0.732
+      },
+      {
+        "AP@0.3": 0.549,
+        "AP@0.5": 0.357,
+        "AP03_low": 0.458,
+        "AP03_high": 0.775
+      }
+    ]
+  },
+  "D1_base": {
+    "AP@0.3": 0.433,
+    "AP@0.5": 0.252,
+    "AP03_low": 0.356,
+    "AP03_high": 0.624
+  },
+  "ref": {
+    "yolo_oneshot_bootstrap_protected_AP@0.5": 0.358,
+    "retinanet_TS_Table4.9_note": "RetinaNet TS ours best AP@0.3 ~0.374"
+  }
+}

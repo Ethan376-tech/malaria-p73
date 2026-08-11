@@ -1,0 +1,100 @@
+{
+  "A0": {
+    "P": 0.058,
+    "R": 0.837,
+    "AP": 0.251,
+    "TP": 508,
+    "FP": 8226,
+    "n_boxes": 8734
+  },
+  "uncertainty_TPvsFP_auc": 0.412,
+  "sweep": [
+    {
+      "keep_frac": 1.0,
+      "var_thr": 0.01669,
+      "P": 0.058,
+      "R": 0.837,
+      "AP": 0.251,
+      "TP": 508,
+      "FP": 8226
+    },
+    {
+      "keep_frac": 0.9,
+      "var_thr": 0.00669,
+      "P": 0.053,
+      "R": 0.689,
+      "AP": 0.208,
+      "TP": 418,
+      "FP": 7442
+    },
+    {
+      "keep_frac": 0.8,
+      "var_thr": 0.00455,
+      "P": 0.048,
+      "R": 0.555,
+      "AP": 0.164,
+      "TP": 337,
+      "FP": 6650
+    },
+    {
+      "keep_frac": 0.7,
+      "var_thr": 0.00259,
+      "P": 0.044,
+      "R": 0.44,
+      "AP": 0.123,
+      "TP": 267,
+      "FP": 5847
+    },
+    {
+      "keep_frac": 0.6,
+      "var_thr": 0.00131,
+      "P": 0.039,
+      "R": 0.338,
+      "AP": 0.096,
+      "TP": 205,
+      "FP": 5035
+    },
+    {
+      "keep_frac": 0.5,
+      "var_thr": 0.00074,
+      "P": 0.038,
+      "R": 0.272,
+      "AP": 0.08,
+      "TP": 165,
+      "FP": 4202
+    },
+    {
+      "keep_frac": 0.4,
+      "var_thr": 0.0005,
+      "P": 0.042,
+      "R": 0.244,
+      "AP": 0.08,
+      "TP": 148,
+      "FP": 3346
+    },
+    {
+      "keep_frac": 0.3,
+      "var_thr": 0.00036,
+      "P": 0.047,
+      "R": 0.204,
+      "AP": 0.072,
+      "TP": 124,
+      "FP": 2496
+    }
+  ],
+  "lowpara_risk": {
+    "keep70": {
+      "faint_TP_retained": 0.471,
+      "bright_TP_retained": 0.97,
+      "faint_meanvar": 0.00342,
+      "bright_meanvar": 0.00048
+    },
+    "keep50": {
+      "faint_TP_retained": 0.212,
+      "bright_TP_retained": 0.763,
+      "faint_meanvar": 0.00342,
+      "bright_meanvar": 0.00048
+    }
+  },
+  "note": "FP=high-variance expected -> sep_auc>0.5 means uncertainty separates FP from TP. lowpara: faint=low-p\u0304 TP tertile."
+}

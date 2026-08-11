@@ -1,0 +1,43 @@
+# =====================================================================
+#  DATA & MODELS — NEVER COMMIT
+#  The datasets are patient thick-blood-film microscopy (restricted; see
+#  README > Data availability). Model checkpoints are trained on that data.
+# =====================================================================
+data/
+**/raw/
+checkpoints/
+references/            # third-party code (MILCA, DINOv2, RedDino) — link, do not vendor
+*.pth
+*.pt
+*.ckpt
+*.onnx
+# whole-slide / field images
+*.tif
+*.tiff
+*.svs
+*.ndpi
+*.czi
+
+# =====================================================================
+#  Outputs, caches, scratch
+# =====================================================================
+outputs/
+runs/
+wandb/
+*.log
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+env/
+.DS_Store
+Thumbs.db
+
+# =====================================================================
+#  Built report artifacts (kept out of the code repo)
+#  NOTE: figures/*.png are NOT ignored — commit final result figures if desired,
+#  but first remove any that display raw patient field images.
+# =====================================================================
+*.docx
+report_draft.pdf
+toc_data.json

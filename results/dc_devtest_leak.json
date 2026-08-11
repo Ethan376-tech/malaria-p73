@@ -1,0 +1,74 @@
+{
+  "dev_films": [
+    "390",
+    "398",
+    "399",
+    "408",
+    "465"
+  ],
+  "clean_films": [
+    "352",
+    "353",
+    "355",
+    "362"
+  ],
+  "leaked_films": [
+    "398",
+    "408",
+    "465"
+  ],
+  "results": {
+    "GT-supervised (trained on FASTMAL-dev)": {
+      "full": {
+        "n_img": 640,
+        "n_gt": 724,
+        "AP@0.3": 0.771,
+        "AP@0.5": 0.681,
+        "AP03_low": 0.701,
+        "AP03_high": 0.895
+      },
+      "clean": {
+        "n_img": 96,
+        "n_gt": 37,
+        "AP@0.3": 0.611,
+        "AP@0.5": 0.538,
+        "AP03_low": 0.591,
+        "AP03_high": 1.0
+      },
+      "leaked": {
+        "n_img": 544,
+        "n_gt": 687,
+        "AP@0.3": 0.78,
+        "AP@0.5": 0.691,
+        "AP03_low": 0.714,
+        "AP03_high": 0.894
+      }
+    },
+    "weakly-supervised refined (trained on Ibadan bag)": {
+      "full": {
+        "n_img": 640,
+        "n_gt": 724,
+        "AP@0.3": 0.611,
+        "AP@0.5": 0.398,
+        "AP03_low": 0.497,
+        "AP03_high": 0.846
+      },
+      "clean": {
+        "n_img": 96,
+        "n_gt": 37,
+        "AP@0.3": 0.567,
+        "AP@0.5": 0.332,
+        "AP03_low": 0.547,
+        "AP03_high": 1.0
+      },
+      "leaked": {
+        "n_img": 544,
+        "n_gt": 687,
+        "AP@0.3": 0.621,
+        "AP@0.5": 0.407,
+        "AP03_low": 0.496,
+        "AP03_high": 0.846
+      }
+    }
+  }
+}

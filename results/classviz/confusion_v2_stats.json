@@ -1,0 +1,17 @@
+[
+  {
+    "encoder": "supvit",
+    "sens": 0.747,
+    "spec": 0.521
+  },
+  {
+    "encoder": "reddino",
+    "sens": 0.789,
+    "spec": 0.562
+  },
+  {
+    "encoder": "thickdino",
+    "sens": 0.684,
+    "spec": 0.664
+  }
+]

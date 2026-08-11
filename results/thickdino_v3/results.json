@@ -1,0 +1,15 @@
+{
+  "method": "ThickDINO v3: DINO+iBOT+KoLeo, 16384 proto, 50k steps",
+  "steps": 50000,
+  "batch": 64,
+  "n_local": 6,
+  "out_dim": 16384,
+  "koleo": 0.1,
+  "base_lr": 0.0005,
+  "init": "random",
+  "n_tiles": 808008,
+  "final_loss": 12.51306354045868,
+  "final_dino": 8.387424564361572,
+  "final_ibot": 4.149291024208069,
+  "final_koleo": -0.23652061767876148
+}

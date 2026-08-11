@@ -1,0 +1,15 @@
+{
+  "steps": 1000,
+  "eff_batch": 256,
+  "lr_head": 0.001,
+  "lr_bb": 1e-05,
+  "freeze": 200,
+  "mom": 0.996,
+  "pool": "transductive_A+B",
+  "init": "RedDino",
+  "arch": "vit_small init_values=1.0 (LayerScale)",
+  "recipe": "v3: arch-fix + gentle (disc-LR, head-warmup, accum256, mild-aug)",
+  "final_loss": 9.200468559265136,
+  "loss_first": 9.82575798034668,
+  "min_loss": 9.14792251586914
+}

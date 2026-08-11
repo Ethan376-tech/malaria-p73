@@ -1,0 +1,14 @@
+{
+  "method": "D-Q1(b): SupViT-init + DINO+iBOT adapt, softmax centering",
+  "steps": 15000,
+  "batch": 96,
+  "patch": 16,
+  "out_dim": 8192,
+  "base_lr": 0.0002,
+  "init": "SupViT(ImageNet)",
+  "centering": "softmax",
+  "n_tiles": 808008,
+  "final_loss": 5.690192627906799,
+  "final_dino": 4.236876790523529,
+  "final_ibot": 1.453315806388855
+}

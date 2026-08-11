@@ -1,0 +1,82 @@
+{
+  "setup": {
+    "src": "chittagong-1",
+    "tgt": "ibadan",
+    "src_prior": 0.75,
+    "tgt_prior_overall": 0.394,
+    "tgt_prior_lowpara": 0.202,
+    "note": "BA_priorcorr = balanced-acc at source-free BBSE-estimated positive rate (quantile threshold)"
+  },
+  "PW_pure_weak_bag_logistic": {
+    "overall": {
+      "AUC": 0.454,
+      "tgt_pred_posrate": 1.0,
+      "BA_naive": 0.5,
+      "BA_priorcorr": 0.5,
+      "BA_trueprior": 0.479,
+      "BA_oracle": 0.511,
+      "prior_true": 0.394,
+      "prior_BBSE": 1.0,
+      "BA_priorcorr_95CI": [
+        0.495,
+        0.504
+      ]
+    },
+    "lowpara": {
+      "AUC": 0.464,
+      "tgt_pred_posrate": 1.0,
+      "BA_naive": 0.5,
+      "BA_priorcorr": 0.497,
+      "BA_trueprior": 0.451,
+      "BA_oracle": 0.526,
+      "prior_true": 0.202,
+      "prior_BBSE": 1.0,
+      "BA_priorcorr_95CI": [
+        0.5,
+        0.504
+      ]
+    }
+  },
+  "TK_topk_parasite_scorer": {
+    "overall": {
+      "AUC": 0.63,
+      "tgt_pred_posrate": 0.903,
+      "BA_naive": 0.522,
+      "BA_priorcorr": 0.503,
+      "BA_trueprior": 0.621,
+      "BA_oracle": 0.633,
+      "prior_true": 0.394,
+      "prior_BBSE": 1.0,
+      "BA_priorcorr_95CI": [
+        0.495,
+        0.504
+      ]
+    },
+    "lowpara": {
+      "AUC": 0.466,
+      "tgt_pred_posrate": 0.882,
+      "BA_naive": 0.49,
+      "BA_priorcorr": 0.503,
+      "BA_trueprior": 0.47,
+      "BA_oracle": 0.522,
+      "prior_true": 0.202,
+      "prior_BBSE": 1.0,
+      "BA_priorcorr_95CI": [
+        0.486,
+        0.504
+      ]
+    }
+  },
+  "B2C_Tanzania_topk": {
+    "overall": {
+      "AUC": 0.782,
+      "tgt_pred_posrate": 0.0,
+      "BA_naive": 0.5,
+      "BA_priorcorr": 0.501,
+      "BA_trueprior": 0.774,
+      "BA_oracle": 0.779,
+      "prior_true": 0.5,
+      "prior_BBSE": 0.0
+    }
+  }
+}

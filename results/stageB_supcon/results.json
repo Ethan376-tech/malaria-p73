@@ -1,0 +1,14 @@
+{
+  "method": "SupCon weakly-supervised (chittagong-1 parasite-vs-bg)",
+  "steps": 600,
+  "batch": 128,
+  "tau": 0.1,
+  "lr_proj": 0.001,
+  "lr_bb": 0.0001,
+  "init": "RedDino",
+  "arch": "vit_small init_values=1.0",
+  "n_tiles": 12299,
+  "n_parasite": 6120,
+  "final_loss": 4.967802038192749,
+  "min_loss": 4.875142574310303
+}

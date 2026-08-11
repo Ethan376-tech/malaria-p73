@@ -1,0 +1,64 @@
+{
+  "per_seed": {
+    "SupViT": [
+      0.8099,
+      0.8071,
+      0.7782,
+      0.8163,
+      0.8483
+    ],
+    "RedDino": [
+      0.9111,
+      0.9201,
+      0.8959,
+      0.9215,
+      0.9187
+    ],
+    "ThickDINO": [
+      0.9414,
+      0.9607,
+      0.9415,
+      0.9471,
+      0.9364
+    ]
+  },
+  "ThickDINO_vs_RedDino": {
+    "a_mean": 0.9454,
+    "b_mean": 0.9135,
+    "mean_diff": 0.032,
+    "std_diff": 0.0113,
+    "pooled_sd": 0.01,
+    "n_wins": 5,
+    "n": 5,
+    "paired_t_p": 0.00316,
+    "wilcoxon_p": 0.0625,
+    "diff_in_pooled_sd": 3.196,
+    "cohens_dz": 2.838
+  },
+  "ThickDINO_vs_SupViT": {
+    "a_mean": 0.9454,
+    "b_mean": 0.812,
+    "mean_diff": 0.1335,
+    "std_diff": 0.029,
+    "pooled_sd": 0.0189,
+    "n_wins": 5,
+    "n": 5,
+    "paired_t_p": 0.0005,
+    "wilcoxon_p": 0.0625,
+    "diff_in_pooled_sd": 7.061,
+    "cohens_dz": 4.602
+  },
+  "RedDino_vs_SupViT": {
+    "a_mean": 0.9135,
+    "b_mean": 0.812,
+    "mean_diff": 0.1015,
+    "std_diff": 0.0185,
+    "pooled_sd": 0.0192,
+    "n_wins": 5,
+    "n": 5,
+    "paired_t_p": 0.00026,
+    "wilcoxon_p": 0.0625,
+    "diff_in_pooled_sd": 5.286,
+    "cohens_dz": 5.473
+  }
+}

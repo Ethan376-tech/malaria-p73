@@ -1,0 +1,9 @@
+{
+  "a_star": 0.1082,
+  "b_star": 0.00022,
+  "A0_AP": 0.251,
+  "safe_frac": 0.705,
+  "b_upper_at_astar": 0.00036066008393559,
+  "b_headroom_x_at_astar": 1.64,
+  "a_is_flat": true
+}

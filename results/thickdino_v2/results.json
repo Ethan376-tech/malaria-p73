@@ -1,0 +1,14 @@
+{
+  "method": "ThickDINO v2: from-scratch DINO+iBOT + local crops",
+  "steps": 30000,
+  "batch": 96,
+  "n_local": 6,
+  "out_dim": 8192,
+  "base_lr": 0.0005,
+  "arch": "vit_small init_values=1.0",
+  "init": "random",
+  "n_tiles": 808008,
+  "final_loss": 10.648918228149414,
+  "final_dino": 7.768311080932617,
+  "final_ibot": 2.880607159137726
+}

@@ -1,0 +1,135 @@
+{
+  "weakly_supervised_refined": {
+    "per_seed": [
+      {
+        "tau": 0.78,
+        "overall": {
+          "R2": 0.495,
+          "pearson": 0.731,
+          "MAE": 4.65
+        },
+        "low_density": {
+          "R2": 0.092,
+          "pearson": 0.683,
+          "MAE": 3.57
+        },
+        "high_density": {
+          "R2": -1.294,
+          "pearson": 0.388,
+          "MAE": 5.84
+        },
+        "mean_gt": 15.2,
+        "mean_pred": 13.9
+      },
+      {
+        "tau": 0.76,
+        "overall": {
+          "R2": 0.453,
+          "pearson": 0.706,
+          "MAE": 4.65
+        },
+        "low_density": {
+          "R2": -0.061,
+          "pearson": 0.679,
+          "MAE": 3.52
+        },
+        "high_density": {
+          "R2": -1.389,
+          "pearson": 0.453,
+          "MAE": 5.89
+        },
+        "mean_gt": 15.2,
+        "mean_pred": 13.8
+      },
+      {
+        "tau": 0.72,
+        "overall": {
+          "R2": 0.384,
+          "pearson": 0.686,
+          "MAE": 5.08
+        },
+        "low_density": {
+          "R2": -0.022,
+          "pearson": 0.638,
+          "MAE": 3.76
+        },
+        "high_density": {
+          "R2": -1.904,
+          "pearson": 0.404,
+          "MAE": 6.53
+        },
+        "mean_gt": 15.2,
+        "mean_pred": 13.3
+      }
+    ],
+    "agg": {
+      "overall.R2": {
+        "mean": 0.444,
+        "std": 0.046
+      },
+      "overall.pearson": {
+        "mean": 0.708,
+        "std": 0.018
+      },
+      "overall.MAE": {
+        "mean": 4.793,
+        "std": 0.203
+      },
+      "low_density.R2": {
+        "mean": 0.003,
+        "std": 0.065
+      },
+      "low_density.pearson": {
+        "mean": 0.667,
+        "std": 0.02
+      },
+      "low_density.MAE": {
+        "mean": 3.617,
+        "std": 0.103
+      },
+      "high_density.R2": {
+        "mean": -1.529,
+        "std": 0.268
+      },
+      "high_density.pearson": {
+        "mean": 0.415,
+        "std": 0.028
+      },
+      "high_density.MAE": {
+        "mean": 6.087,
+        "std": 0.314
+      }
+    },
+    "tau_mean": 0.753
+  },
+  "GT_supervised": {
+    "tau": 0.4,
+    "overall": {
+      "R2": 0.649,
+      "pearson": 0.845,
+      "MAE": 3.8
+    },
+    "low_density": {
+      "R2": 0.166,
+      "pearson": 0.799,
+      "MAE": 3.29
+    },
+    "high_density": {
+      "R2": -0.343,
+      "pearson": 0.804,
+      "MAE": 4.37
+    },
+    "mean_gt": 15.2,
+    "mean_pred": 13.2
+  },
+  "ref_retinanet_Table4.15": {
+    "weak": {
+      "r": 0.47,
+      "low_r": 0.7,
+      "MAE": 5.95
+    },
+    "GT": {
+      "r": 0.8
+    }
+  }
+}

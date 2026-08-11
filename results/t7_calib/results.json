@@ -1,0 +1,80 @@
+{
+  "setup": {
+    "src": "chittagong-1",
+    "tgt": "ibadan",
+    "src_prior": 0.75,
+    "tgt_prior_overall": 0.394,
+    "tgt_prior_lowpara": 0.202,
+    "methods": "naive=source op-point; temp=temperature scaling (scalar); vector=affine a*logit+b, both fit on a labelled target calib split",
+    "note": "temp & vector are monotonic in the logit -> AUC-invariant by construction"
+  },
+  "B2A_overall": {
+    "naive": {
+      "ECE": 0.223,
+      "Brier": 0.282,
+      "acc": 0.435,
+      "BA": 0.523,
+      "AUC": 0.631
+    },
+    "temp": {
+      "ECE": 0.114,
+      "Brier": 0.251,
+      "acc": 0.435,
+      "BA": 0.523,
+      "AUC": 0.631
+    },
+    "vector": {
+      "ECE": 0.035,
+      "Brier": 0.239,
+      "acc": 0.607,
+      "BA": 0.5,
+      "AUC": 0.631
+    }
+  },
+  "B2A_lowpara": {
+    "naive": {
+      "ECE": 0.41,
+      "Brier": 0.326,
+      "acc": 0.259,
+      "BA": 0.487,
+      "AUC": 0.468
+    },
+    "temp": {
+      "ECE": 0.312,
+      "Brier": 0.254,
+      "acc": 0.259,
+      "BA": 0.487,
+      "AUC": 0.468
+    },
+    "vector": {
+      "ECE": 0.215,
+      "Brier": 0.203,
+      "acc": 0.806,
+      "BA": 0.5,
+      "AUC": 0.468
+    }
+  },
+  "B2C_Tanzania": {
+    "naive": {
+      "ECE": 0.335,
+      "Brier": 0.361,
+      "acc": 0.5,
+      "BA": 0.5,
+      "AUC": 0.778
+    },
+    "temp": {
+      "ECE": 0.02,
+      "Brier": 0.25,
+      "acc": 0.5,
+      "BA": 0.5,
+      "AUC": 0.778
+    },
+    "vector": {
+      "ECE": 0.019,
+      "Brier": 0.247,
+      "acc": 0.512,
+      "BA": 0.512,
+      "AUC": 0.778
+    }
+  }
+}

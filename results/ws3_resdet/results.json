@@ -1,0 +1,32 @@
+{
+  "baseline_default": {
+    "AP@0.3": 0.0,
+    "AP@0.5": 0.0,
+    "n_gt": 1380,
+    "cfg": {
+      "anchors": "default",
+      "min_size": 800,
+      "max_size": 1333
+    }
+  },
+  "small_anchors": {
+    "AP@0.3": 0.0,
+    "AP@0.5": 0.0,
+    "n_gt": 1380,
+    "cfg": {
+      "anchors": "small",
+      "min_size": 640,
+      "max_size": 640
+    }
+  },
+  "small_anchors_2x": {
+    "AP@0.3": 0.0,
+    "AP@0.5": 0.0,
+    "n_gt": 1380,
+    "cfg": {
+      "anchors": "small",
+      "min_size": 1280,
+      "max_size": 1280
+    }
+  }
+}

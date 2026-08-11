@@ -1,0 +1,12 @@
+{
+  "method": "Q3 MoCo (queue) framework ablation, SupViT-init",
+  "steps": 15000,
+  "batch": 96,
+  "queue": 9600,
+  "tau": 0.2,
+  "patch": 16,
+  "base_lr": 0.0002,
+  "init": "SupViT",
+  "n_tiles": 808008,
+  "final_loss": 9.927297744750977
+}

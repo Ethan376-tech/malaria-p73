@@ -1,0 +1,116 @@
+{
+  "A": {
+    "domain": "A_ibadan_fastmal",
+    "gate_thr": -2.637,
+    "cam_thr": 0.0,
+    "b_protect": 0.000224,
+    "a_star": 0.1082,
+    "n_test_fields": 40,
+    "density_split": 14.0,
+    "A0": {
+      "low_density": {
+        "TP": 156,
+        "FP": 4959,
+        "GT": 193,
+        "P": 0.03,
+        "R": 0.808
+      },
+      "high_density": {
+        "TP": 352,
+        "FP": 3267,
+        "GT": 414,
+        "P": 0.097,
+        "R": 0.85
+      },
+      "all": {
+        "TP": 508,
+        "FP": 8226,
+        "GT": 607,
+        "P": 0.058,
+        "R": 0.837
+      }
+    },
+    "protected": {
+      "low_density": {
+        "TP": 154,
+        "FP": 4416,
+        "GT": 193,
+        "P": 0.034,
+        "R": 0.798
+      },
+      "high_density": {
+        "TP": 344,
+        "FP": 2751,
+        "GT": 414,
+        "P": 0.111,
+        "R": 0.831
+      },
+      "all": {
+        "TP": 498,
+        "FP": 7167,
+        "GT": 607,
+        "P": 0.065,
+        "R": 0.82
+      }
+    },
+    "faint_retained_protected": {
+      "low_density": 0.965,
+      "high_density": 0.929
+    }
+  },
+  "B": {
+    "domain": "B_chittagong1",
+    "gate_thr": -0.989,
+    "cam_thr": 0.026,
+    "b_protect": 0.0,
+    "a_star": 0.9999,
+    "n_test_fields": 25,
+    "density_split": 11.0,
+    "A0": {
+      "low_density": {
+        "TP": 0,
+        "FP": 285,
+        "GT": 86,
+        "P": 0.0,
+        "R": 0.0
+      },
+      "high_density": {
+        "TP": 0,
+        "FP": 157,
+        "GT": 261,
+        "P": 0.0,
+        "R": 0.0
+      },
+      "all": {
+        "TP": 0,
+        "FP": 442,
+        "GT": 347,
+        "P": 0.0,
+        "R": 0.0
+      }
+    },
+    "protected": {
+      "low_density": {
+        "TP": 0,
+        "FP": 285,
+        "GT": 86,
+        "P": 0.0,
+        "R": 0.0
+      },
+      "high_density": {
+        "TP": 0,
+        "FP": 157,
+        "GT": 261,
+        "P": 0.0,
+        "R": 0.0
+      },
+      "all": {
+        "TP": 0,
+        "FP": 442,
+        "GT": 347,
+        "P": 0.0,
+        "R": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "C2_indomain_small": {
+    "AP@0.3": 0.501,
+    "AP@0.5": 0.148,
+    "n_gt": 2521,
+    "n_pred": 16352,
+    "cfg": {
+      "anchors": "small",
+      "min_size": 640,
+      "max_size": 640
+    }
+  },
+  "C2_indomain_small_2x": {
+    "AP@0.3": 0.552,
+    "AP@0.5": 0.178,
+    "n_gt": 2521,
+    "n_pred": 14588,
+    "cfg": {
+      "anchors": "small",
+      "min_size": 1280,
+      "max_size": 1280
+    }
+  },
+  "C1_indomain_small": {
+    "AP@0.3": 0.587,
+    "AP@0.5": 0.307,
+    "n_gt": 285,
+    "n_pred": 2196,
+    "cfg": {
+      "anchors": "small",
+      "min_size": 640,
+      "max_size": 640
+    }
+  }
+}
